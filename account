@@ -1,0 +1,14 @@
+
+geth account new --datadir data - создание нового аккаунта
+geth init --datadir data genesis.json - создание генезис блока
+
+geth --datadir data --networkid 21032024 --unlock 0x8B2279c3b75E80E14F3B80a730001D9472bc1839 --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x8B2279c3b75E80E14F3B80a730001D9472bc1839 - запуск чатсной сети блокчейна
+geth attach --datadir data ipc:\\.\pipe\geth.ipc - создание отдельной консоли geth для того, чтобы управлять процессами в блокчейне
+    eth.blockNumber - номер блока 
+
+
+0x8B2279c3b75E80E14F3B80a730001D9472bc1839 123
+0x2567331EDA591A75eFef45f49c7A3AeE10a80De0 123
+0x6A821dAe555307209424dFeCB14a2145a4f18e55 123
+0x9EbA30f802e045378263b1A3D307A23A2D9000b0 123
+0x42E8d90D5B3fc959c8664E57aEF30aC35c95b706 123 
